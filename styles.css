@@ -154,6 +154,11 @@ body
     color: white;
 }
 
+.fa-github-alt:hover
+{
+    color: rgba(255, 255, 255, 0.483);
+}
+
 
 
 
