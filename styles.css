@@ -1,0 +1,192 @@
+/*  CSS STYLLING  */
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+    all: none;
+    border: none;
+}
+
+body
+{
+    background: url("https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100vh;
+
+    color: white;
+}
+
+.container-universal
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    border-bottom: 1px solid rgba(111, 110, 110, 0.778);
+    border-right: 1px solid rgba(158, 157, 157, 0.778);
+    border-top: 1px solid rgba(83, 82, 82, 0.468);
+    border-left: 1px solid rgba(60, 59, 59, 0.359);
+
+    box-shadow: 2px 2px 14px black;
+
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+
+    backdrop-filter: blur(30px);
+
+    -webkit-box-reflect: below 1px  linear-gradient(transparent,transparent, #0004) ;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.quote-container
+{
+    font-size: 1.6rem;
+    font-weight: 400;
+
+    text-shadow: 3px 4px 8px rgb(0, 0, 0);
+
+    padding-bottom: 30px;
+}
+
+.fa-quote-left
+{
+    font-size: 3rem;
+    margin-right: 2px;
+}
+
+.quotemaster
+{
+    font-size: 1.3rem;
+    font-weight: 200;
+    text-transform: capitalize;
+
+    padding-bottom: 20px;
+}
+
+.bottom
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2%;
+    padding-left: 15%;
+    padding-right: 15%;
+
+    width: 100%;
+    height: 30px;
+
+    margin-bottom: 15px;
+}
+
+.twitter
+{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    border-radius: 10px;
+    
+}
+
+.twitter:hover
+{
+    background-color: rgba(104, 101, 101, 0.487);
+    cursor: pointer;
+}
+
+.fa-twitter
+{
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+}
+
+.new-quote > button
+{
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    font-weight: 500;
+    box-shadow: 4px 4px 8px white;
+}
+
+.new-quote > button:hover
+{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+.github
+{
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    margin: 50px;
+
+    font-size: 40px;
+}
+
+.fa-github-alt
+{
+    color: white;
+}
+
+
+
+
+/* MEDIA RESPONSIVE STYLING */
+
+@media only screen and (max-width: 400px)
+{
+
+    .container-universal
+    {
+        width: 80%;
+        height: 50%;
+    }
+
+    .quote-container
+    {
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fa-quote-left
+    {
+        font-size: 2.5rem;
+    }
+
+    .bottom
+    {
+        margin-top: 20px;
+
+        justify-content: space-between;
+    }
+
+}
