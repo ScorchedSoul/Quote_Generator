@@ -13,25 +13,29 @@
 </head>
 <body>
 
-    <div class="container-universal">
+    <div id="container_universal" class="container_universal">
 
-        <div class="quote-container">
-            <div class="quote-">
-                <i class="fa-solid fa-quote-left"></i>
-                "Practice like you have never won , Perform like you have never lost."
-            </div>
+        <!-- QUOTE -->
+        <div class="quote-container" >
+               <span><i class="fa-solid fa-quote-left"></i></span>
+                <span class="quote" id="quote"></span>
         </div>
 
+        <!-- QUOTEMASTER -->
         <div class="quotemaster">
-                <em>palak raj</em>
+                <span id="quoteMaster">
+                </span>
         </div>
 
 
+        <!-- TWITTER / NEW QUOTE -->
         <div class="bottom">
-            <div class="twitter">
-                <a href="https://twitter.com/i/connect_people"><i class="fa-brands fa-twitter"></i></a>
+            <div class="twitter" title="Tweet this !!">
+                <button class="twitter-button" id="twitter">
+                     <i class="fa-brands fa-twitter"></i>
+                </button>
             </div>
-            <div class="new-quote">
+            <div id="newQuote" class="new-quote">
                 <button>NEW QUOTE</button>
             </div>
         </div>
@@ -39,6 +43,7 @@
     </div>
 
 
+    <!-- GITHUB OF THE PROJECT -->
     <div class="github">
         <a href="https://github.com/ScorchedSoul/Quote_Generator"><i class="fa-brands fa-github-alt"></i></a>
     </div>
