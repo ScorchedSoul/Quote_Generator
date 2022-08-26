@@ -41,7 +41,31 @@ localQuotes = [
   {
     "quote": "Well begun is half done.",
     "quoteMaster": "Aristotle",
-  } 
+  } ,
+  {
+    "quote" :  "The purpose of our lives is to be happy.",
+    "quoteMaster" : "Dalai Lama",
+  },
+  {
+    "quote" :  "Get busy living or get busy dying.",
+    "quoteMaster" : "Stephen King",
+  },
+  {
+    "quote" :  "You only live once, but if you do it right, once is enough.",
+    "quoteMaster" : "Mae West",
+  },
+  {
+    "quote" :  "Many of life’s failures are people who did not realize how close they were to success when they gave up.",
+    "quoteMaster" : "Thomas A. Edison",
+  },
+  {
+    "quote" : "Money and success don’t change people; they merely amplify what is already there." ,
+    "quoteMaster" : "Will Smith",
+  },
+  {
+    "quote" :  "The unexamined life is not worth living.",
+    "quoteMaster" : "Socrates",
+  },
 ]
 
 
